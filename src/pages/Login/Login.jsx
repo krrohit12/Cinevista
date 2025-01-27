@@ -18,7 +18,7 @@ const Login = () => {
   }
   return (
     <div className='login'>
-      <img src={logo} className='login-logo' alt="" />
+      {/* <img src="/Logo.svg" className='login-logo' alt="" /> */}
       <div className="login-form">
             <h1>{signState}</h1>
             <form>
@@ -37,7 +37,7 @@ const Login = () => {
             </form>
             <div className="form-switch">
               {signState==="Sign In"? 
-               <p>New to Netflix ? <span onClick={()=>{
+               <p>New to CineVista ? <span onClick={()=>{
                 setSignState("Sign Up")
                }}>Sign Up Now</span ></p>:
                 <p>Already have account ? <span onClick={()=>{

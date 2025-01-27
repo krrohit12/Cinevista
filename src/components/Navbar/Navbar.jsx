@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <div ref={navRef}className='navbar'>
       <div className="navbar-left">
-          <img src={logo} alt="" />
+          <img src="/Logo.svg"alt="" />
           <ul>
             <li>Home</li>
             <li>TV Shows</li>
@@ -39,7 +39,7 @@ const Navbar = () => {
           <img src={profile_img} alt="" className='profile' />
           <img src={caret_icon} alt="" />
           <div className="dropdown">
-            <p onClick={()=>{logout()}}>Sign Out of Netflix</p>
+            <p onClick={()=>{logout()}}>Sign Out </p>
           </div>
         </div>
       </div>
